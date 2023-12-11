@@ -1,4 +1,4 @@
-from modules.semantic import SemanticSearch
+from semantic import SemanticSearch
 import pickle
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM,PegasusTokenizer
 model = AutoModelForSeq2SeqLM.from_pretrained("./model_gen/")
